@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(17, 17, 17);
+}
+#title{
+    text-align: left;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 22%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    animation: infinite;
+    animation-name: titolo;
+    animation-duration: 5s;
+}
+@keyframes titolo{
+    0%{text-shadow: 0 0 10px rgb(243, 97, 97);
+        color:rgb(243, 97, 97)}
+    25%{text-shadow: 0 0 10px rgb(233, 0, 0);
+        color: rgb(233, 0, 0);}
+    50%{text-shadow: 0 0 10px rgb(255, 102, 0);
+        color: rgb(255, 102, 0);}
+    70%{text-shadow: 0 0 10px rgb(255, 255, 0);
+        color: yellow;}
+    95%{text-shadow: 0 0 10px rgb(238, 27, 143);
+        color: rgb(238, 27, 143);}
+    100%{text-shadow: 0 0 10px rgb(243, 97, 97);
+        color: rgb(243, 97, 97);}
+}
+li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-align:left ;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 51%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+#numeri{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-align:left ;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 48%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
