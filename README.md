@@ -5,3 +5,5 @@ Nella cartella Python ci sono sia il codice per il contatore che conta quante pe
 
 Nel main c'è lo schema per collegarlo al raspy.
 
+Nella cartella Deprecato ci sono i file del webserver che stavamo per utilizzare in primo momento
+
